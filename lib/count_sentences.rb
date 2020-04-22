@@ -32,6 +32,6 @@ class String
     array.delete_if do |x|
       x.empty
     end 
-    array.count 
+    array.length
   end
 end
