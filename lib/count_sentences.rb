@@ -30,7 +30,7 @@ class String
     array = []
     array = self.split(/[.?!]/)
     array.delete_if do |x|
-      x.empty
+      x.empty?
     end 
     array.length
   end
